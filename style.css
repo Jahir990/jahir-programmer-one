@@ -1,0 +1,385 @@
+/* Global class */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navigation Bar */
+.navigation {
+    width: auto;
+    height: 100px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-bar {
+    display: flex;
+
+
+}
+
+.menu-bar li {
+
+    list-style: none;
+    margin-right: 15px;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.menu-bar li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.fa-youtube {
+    color: brown;
+}
+
+.btn-one {
+    padding: 30px 0;
+    border: none;
+}
+
+.gamer-one {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gamer-g {
+    color: #FF42A5;
+}
+
+/* Header side Bar */
+.side-bar {
+    width: 50%;
+}
+
+.play-like {
+    color: #230202;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.goat {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #F948B2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.all-text li {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+
+
+}
+
+.all-text {
+    margin: 100px;
+    text-align: left;
+
+}
+
+.all-text ul {
+    padding-left: 0px;
+
+}
+
+.sign-in {
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.know-more {
+    border-radius: 48px;
+    padding: 15px 30px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 0px;
+
+
+}
+
+.sign-in a,
+.go-rogue a,
+.know-more {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.go-rogue {
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    background: #4EC5F7;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-two {
+    position: relative;
+    margin: -65px 2px 2px 94px;
+}
+
+.header-image-text {
+    display: flex;
+}
+
+.side-bar-image img {
+    width: 100%;
+}
+
+/* we Are gammer */
+.we-are-gammer {
+    display: flex;
+}
+
+.hello-gammer {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    color: #F948B2;
+
+}
+
+.big-gammer {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.unleaseh {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.some-content {
+    text-align: right;
+}
+
+.vedio-image {
+    display: flex;
+}
+
+.gaming-image img {
+    margin: 10px 10px 0px 10px;
+}
+
+.gaming-image {
+    width: 320px;
+    height: 400px;
+}
+
+.gaming-image p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.online-game-funny {
+
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.funny-vedio-color {
+    color: #F948B2;
+}
+
+.online-game-para {
+    text-align: center;
+}
+
+.a-collection{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/* 
+instant gaming section */
+.play-instantly{
+    display: flex;
+    margin-top: 80px;
+}
+.text-type-one{
+    width: 50%; 
+    padding: 50px;
+}
+.display-change{
+    position: relative;
+    top: -270px;
+    left: -90px;
+}
+.select-btn button{
+   
+}
+.select-btn img{
+    width: 40px;
+    height: 40px;
+}
+.more-btn {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    position: relative;
+    margin-top: -225px;
+    align-items: center;
+}
+.select-btn{
+    display: flex;
+    background-color: #f0f3f4;
+    border: none;
+    border-radius: 20px;
+    height: 80px;
+    width: 184px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+.select-btn:hover{
+    color: #FF42A5 ;
+    border: 1px solid #FF42A5 ;
+    background: #FFF;
+}
+/* ?footer section  */
+
+.final-class{
+    width: auto;
+    height: 550px;
+    background: #0B0223;
+    text-align: center;
+    padding-top: 80px;
+}
+.white-color{
+    color: white;
+}
+.create-list-one{
+   
+    color: white;
+   width: 100%;
+   height: 50px;
+   justify-content: center;
+   margin-top: 50px;
+   display: flex;
+}
+.create-list-one ul{
+ 
+}
+.create-list-one li{
+
+    list-style: none;
+}
+.create-list-one li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.color-change-font{
+    color: white;
+    font-size: 12px;
+}
+
+/* media quaries change */
+/* Media Queries */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    .we-are-gammer,
+    .vedio-image {
+      flex-direction: column;
+    }
+  
+    .header-image-text {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .text-type-one {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .display-change {
+      position: initial;
+      top: initial;
+      left: initial;
+    }
+  
+    .side-bar {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .gaming-image {
+      max-width: 100%;
+    }
+  
+    .select-btn {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .final-class {
+      height: auto;
+    }
+  
+    .menu-bar {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .btn-two {
+      margin: 20px auto 2px auto;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .menu-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn-two {
+      margin: -65px auto 2px auto;
+    }
+  }
