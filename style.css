@@ -317,3 +317,69 @@ instant gaming section */
     color: white;
     font-size: 12px;
 }
+
+/* media quaries change */
+/* Media Queries */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    .we-are-gammer,
+    .vedio-image {
+      flex-direction: column;
+    }
+  
+    .header-image-text {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .text-type-one {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .display-change {
+      position: initial;
+      top: initial;
+      left: initial;
+    }
+  
+    .side-bar {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .gaming-image {
+      max-width: 100%;
+    }
+  
+    .select-btn {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .final-class {
+      height: auto;
+    }
+  
+    .menu-bar {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .btn-two {
+      margin: 20px auto 2px auto;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .menu-bar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .btn-two {
+      margin: -65px auto 2px auto;
+    }
+  }
